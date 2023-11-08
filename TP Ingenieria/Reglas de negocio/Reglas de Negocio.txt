@@ -1,0 +1,7 @@
+reglas de negocio:
+Hecho: El paso del vehículo debe registrarse.
+
+Hecho: Cada cámara detecta automáticamente al vehículo cuando pasa y envía a nuestro sistema los datos detallados.
+
+Accion disparadora: El sistema recibe los datos y realiza distitas acciones segun la velocidad.
+

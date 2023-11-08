@@ -1,0 +1,26 @@
+Caso de uso:
+
+Caso de uso: Registro de velocidad.
+Actores: Camara de video control. (primario)
+Precondición:-
+	
+Camino básico: 
+	1- La cámara envía los datos de la captura (fecha y hora, id de la cámara, patente y
+velocidad) al sistema.
+	2- El sistema recibe los datos y verifica la velocidad.
+	
+Camino alternativo
+2.a- Si la velocidad es mayor a 70 km/h, el sistema envía los datos a una APIBaseDatos
+a.1- La API guarda los datos en una base de datos.
+a.2-El sistema envía un correo con los datos que envió la cámara a la cuenta “aviso@ciudad”.
+
+2.b-Si la velocidad es mayor a 100km/h, el sistema envía los datos a una APIBaseDatos.
+b.1-La API guarda los datos en una base de datos.
+b.2-EL sistema envía un correo a la cuenta “alertas@ciudad” 
+b.3- envía 3 veces los datos a una impresora para que sean impresos.
+
+2.c-Si la velocidad no cumple con ninguna de las opciones anteriores no se envía ningún dato a la APIBaseDatos.
+
+Escenario de éxito:El sistema recibe y guarda los datos  de un vehículo.
+
+Escenario de fracaso: El sistema no recibe ningún dato

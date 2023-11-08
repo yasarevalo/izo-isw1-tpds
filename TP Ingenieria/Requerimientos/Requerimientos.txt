@@ -1,0 +1,6 @@
+Requerimientos:
+El sistema debe hacer detección automática de los vehículos. (Funcional)
+El sistema debe hacer registro del paso de cada vehículo con los datos detallados.(Funcional)
+El sistema debe enviar los datos a una API para guardarlos en una base de datos.(Funcional)
+El sistema envía 3 veces los datos a la impresora para que sean impresos.(Funcional)
+El sistema debe funcionar 24/7.(No funcional)

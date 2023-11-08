@@ -1,0 +1,5 @@
+Diccionario de datos:
+
+Captura = Fecha + hora + id de la cámara + patente +velocidad
+Cámara =ID + descripción + coordenadas x/y de su ubicación + dirección IP + modelo de la cámara.
+Vehiculo = patente + velocidad.
